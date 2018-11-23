@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kaushan Script', cursive;
+}
+.signup-form{
+    background: url(../img/pexels-photo-533444.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.overlay{
+    position: absolute;
+    background: #5f595982;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.col-2{
+    width: 50%;
+    float: left;
+    padding: 100px 50px;
+}
+.about-signup{
+    color: white;
+}
+.about-signup h1{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.about-signup span{
+    color: #0f0f79;
+}
+.about-signup p{
+    margin: 27px 0;
+    font-size: 20px;
+}
+.about-signup ul{
+    margin: 35px 0;
+}
+.about-signup ul li{
+    padding: 9px 0;
+    font-size: 20px;
+    list-style: none;
+    text-transform: capitalize;
+}
+.about-signup ul li i{
+    padding-right: 5px;
+}
+.about-signup a{
+    color: white;
+    background: #0f0f79;
+    padding: 10px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: inline;
+    border-bottom: 4px solid #0b0b4a;
+    transition: all 0.4s ease;
+}
+
+.about-signup a:hover{
+	color: white;
+    background: #0a0a58;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-bottom: 5px solid #0b0b4a;
+    cursor: pointer;
+    border: 0
+}
+.form{
+    background: #0f0f79;
+    color: white;
+    padding: 50px;
+    border-radius: 9px;
+    box-shadow: 0 0 50px 5px #00000082;
+}
+.form h1{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.form p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+form{}
+form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+form input:focus{}
+.submitbtn{
+    color: white;
+    background: #0a0a58;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-bottom: 5px solid #0b0b4a;
+    cursor: pointer;
+    border: 0
+    transition: all 0.4s ease;
+}
+.submitbtn:hover{
+	background: #07072d;
+	border-bottom: 5px solid #0a0a58;
+}
